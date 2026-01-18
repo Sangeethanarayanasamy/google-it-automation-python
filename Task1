@@ -1,0 +1,11 @@
+#In one year, if there are 365 days, with 24 hours in a day, and 60 minutes in an hour, calculate the number of minutes in a year.#
+
+one_year_days = 365
+one_days_hours = 24
+minutes_in_hour = 60
+total_minutes_year =  ((365*24)*60)
+print(total_minutes_year)
+
+#Answer:
+root@640d694531c8:/home/student# python task2.py
+525600
