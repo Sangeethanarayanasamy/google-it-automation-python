@@ -34,6 +34,32 @@ print(sector_amount)
 
 root@640d694531c8:/home/student# python task4.py
 33554432
+............................................................................................................
 
+# Enter the python code here
+print("2 + 2 = " + str(2 + 2))
 
+root@d4c7fd1cf087:/home/student# python task1.py
+2 + 2 = 4
+.......................................................................................................................
 
+bill = 47.28 # Assign "bill" variable with bill amount
+tip = bill * 0.15 # Multiply by stated tip rate 
+total = bill + tip # Sum the "total" of the "bill" and "tip"
+share = total/2 # Divide "total" by number of friends dining
+print("Each person needs to pay :" + str(share) ) # Enter the required string and "share" 
+# Hint: Remember to convert incompatible data types
+
+root@d4c7fd1cf087:/home/student# python task2.py
+Each person needs to pay :27.186
+.....................................................................................................................
+numerator = 10
+denominator = 0
+
+if denominator != 0 :
+    result = numerator % denominator
+    print(result)
+else :
+    print("Error: Cannot divide by zero")
+
+.......................................................................................................
