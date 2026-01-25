@@ -91,9 +91,10 @@ print(greater_value(10,3*5))
 
 Ans:
 15
-...................................................................
+...........................................................................................................................................................................
 Question 9
-Fill in the blanks to complete the “safe_division” function. The function accepts two numeric variables through the function parameters and divides the “numerator” by the “denominator”. 
+Fill in the blanks to complete the “safe_division” function. 
+The function accepts two numeric variables through the function parameters and divides the “numerator” by the “denominator”. 
 The function’s main purpose is to prevent a ZeroDivisionError by checking if the “denominator” is 0. If it is 0, the function should return 0 instead of attempting the division.
 Otherwise all other numbers will be part of the division equation. Complete the body of the function so that the function completes its purpose.
 
