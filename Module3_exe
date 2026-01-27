@@ -115,6 +115,57 @@ print(difference(sum(2,2), sum(3,3)))
 # Evaluate the Boolean output of this comparison
 
 print((5 >= 2*4) and (5 <= 4*3))
+.............................................
+#################################
+
+# Example 4 
+# Evaluate the value of the comparison in the if statement 
+
+x = 3
+if x+5 > x**2 or x % 4 != 0:
+    print("This comparison is True")
+
+#################################
+
+# Example 5 
+# Evaluate the output of this if-elif-else statement
+
+number = 6
+if number * 2 < 14:
+    print(number * 6 % 3)
+elif number > 7:
+    print(100 / number)
+else:
+    print(7 - number)
+
+# Click Run to check your answers. If you are having trouble 
+# calculating the correct answers manually, please review the
+# Practice Quiz Study Guides, videos, and readings in this Module.
+
+
+Ans:
+120
+ -2
+ False
+ This comparison is True
+ 0
+..............................................................................................
+def get_remainder(x, y):
+ 
+  if x == 0 or y == 0 or x ==y:
+    remainder = 0
+  else:
+    remainder = (x % y) / y
+  return remainder
+
+print(get_remainder(10, 3))
+
+Ans:
+
+0.3333333333333333
+....................................................................................
+.................................................................................
+
 
 
 
