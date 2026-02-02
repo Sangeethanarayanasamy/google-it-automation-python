@@ -1,1 +1,23 @@
+len(string) - Returns the length of the string
+
+Eg:
+print(len("abcde"))         # prints 5
+..................................................................
+for character in string - Iterates over each character in the string
+
+Eg:
+for c in "abcde":  print(c)                  # prints "a", then "b", then "c", etc.
+...........................................................................................
+if substring in string - Checks whether the substring is part of the string.
+
+Eg:
+print("abc" in "abcde")     # prints True
+print("def" in "abcde")     # prints False
+............................................................................................................
+string[i] - Accesses the character at index i of the string, starting at zero
+
+Eg:
+print("abcde"[2])           # prints "c"
+print("abcde"[-1])          # prints "e"
+..................................................................................................
 
