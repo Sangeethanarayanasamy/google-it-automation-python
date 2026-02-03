@@ -69,6 +69,30 @@ string.isalpha() - Returns True if there are only letters in the string. If not,
 Eg:
 print("xyzzy".isalpha())                # prints True
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+string.split() - Returns a list of substrings that were separated by whitespace (whitespace can be a space, tab, or new line)
+
+Eg:
+print(test.split())    # prints ['How', 'much', 'wood', 'would', 'a', 'woodchuck', 'chuck']
+.............................................................................................................................................
+string.split(delimiter) - Returns a list of substrings that were separated by whitespace or another string
+
+Eg:
+test = "How-much-wood-would-a-woodchuck-chuck"
+print(test.split("-"))                  # prints ['How', 'much', 'wood', 'would', 'a', 'woodchuck', 'chuck']
+..................................................................................................................................
+string.replace(old, new) - Returns a new string where all occurrences of old have been replaced by new.
+
+Eg:
+print(test.replace("wood", "plastic"))  # prints "How much plastic would a plasticchuck chuck"
+..............................................................................................................................
+delimiter.join(list of strings) - Returns a new string with all the strings joined by the delimiter
+
+Eg:
+print("-".join(test.split()))           # prints "How-much-wood-would-a-woodchuck-chuck"
+..................................................................................................................................
+......................................................................................................................................
+
+
 
 
 
