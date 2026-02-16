@@ -48,3 +48,42 @@ print(pig_latin("programming in python is fun")) # Should be "rogrammingpay niay
 Ans:
 ellohay owhay reaay ouyay
 rogrammingpay niay ythonpay siay unfay
+..........................................................................................................................................
+Fill in the blank using a for loop. With the given list of "filenames", this code should rename all files with the extension .hpp to the extension .h. The code  should then generate a new list called "new_filenames" that contains the file names with the new extension.
+
+You are given a list of filenames like this:
+
+filenames = ["program.c", "stdio.hpp", "sample.hpp", "a.out", "math.hpp", "hpp.out"]
+
+Output the list with all of the ".hpp" files renamed to end with ".h". Leave the other filenames alone. For this question, you must use a for loop to create the list. 
+
+filenames = ["program.c", "stdio.hpp", "sample.hpp", "a.out", "math.hpp", "hpp.out"]
+# Generate new_filenames as a list containing the new filenames
+# using as many lines of code as your chosen method requires.
+
+
+new_filenames = []
+for filename in filenames:
+    if filename.endswith("hpp"):
+         new_filenames.append(filename[:-3] + "h")
+    else:
+        new_filenames.append(filename)
+
+
+print(new_filenames)
+# Should be ["program.c", "stdio.h", "sample.h", "a.out", "math.h", "hpp.out"]
+
+Ans:
+['program.c', 'stdio.h', 'sample.h', 'a.out', 'math.h', 'hpp.out']
+............................................................................................................................
+
+
+
+
+
+
+
+
+
+
+
